@@ -35,7 +35,7 @@ public class ReverseArray {
 		return arr;
 	}
 
-	// Using two pointers
+	// Using two pointers - O(n) / O(1)
 	private static int[] reverse(int[] arr) {
 		int start = 0, end = arr.length - 1;
 		while (start < end) {
