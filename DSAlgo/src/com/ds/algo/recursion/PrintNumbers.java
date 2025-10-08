@@ -8,6 +8,8 @@ public class PrintNumbers {
 		System.out.println("--");
 		printDecInc(5);
 
+		print(1);
+
 	}
 
 	private static void printIncreasing(int n) {
@@ -29,6 +31,14 @@ public class PrintNumbers {
 			return;
 		System.out.println(n);
 		printDecInc(n - 1);
+		System.out.println(n);
+	}
+
+	private static void print(int n) {
+		if(n == 10)
+			return;
+
+		print(++n);
 		System.out.println(n);
 	}
 
