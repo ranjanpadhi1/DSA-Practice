@@ -7,7 +7,7 @@ public class PrintNumbers {
 		printDecreasing(5);
 		System.out.println("--");
 		printDecInc(5);
-
+		System.out.println("--");
 		print(1);
 
 	}
